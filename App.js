@@ -96,23 +96,24 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#d2e900',
+    backgroundColor: '#530a0a',
     paddingTop: 60,
     paddingHorizontal: 20,
   },
   titulo: {
     fontSize: 22,
     fontWeight: 'bold',
+    color: '#ffffff',
     textAlign: 'center',
     marginBottom: 20,
   },
   form: {
-  backgroundColor: '#ffffff',
+  backgroundColor: '#666666',
   padding: 15,
   borderRadius: 8,
   marginBottom: 20,
   elevation: 3,
-  shadowColor: '#000',
+  shadowColor: '#000000',
   shadowOffset: { width: 0, height: 1 },
   shadowOpacity: 0.2,
   shadowRadius: 1.41,
